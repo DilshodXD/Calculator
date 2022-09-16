@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="color-mode">
+            <button class="mode active" id="light">light</button>
+            <button class="mode" id="dark">dark</button>
+        </div>
+        <div class="output">
+            <div class="previous">
+                <p data-previous-operand class="previous__example"></p>
+            </div>
+            <div class="current">
+                <p class="current-equality">=</p>
+                <p data-current-operand class="current-answer">0</p>
+            </div>
+        </div>
+        <div class="buttons">
+
+                <button data-all-clear class="max button button-bg-2">AC</button>
+                <button data-delete class="button button-bg-2">Del</button>
+                <button data-operation class="button button-bg-2">÷</button>
+
+                <button data-number class="button button-bg-3">1</button>
+                <button data-number class="button button-bg-3">2</button>
+                <button data-number class="button button-bg-3">3</button>
+                <button data-operation class="button button-bg-2">×</button>
+                
+                <button data-number class="button button-bg-3">4</button>
+                <button data-number class="button button-bg-3">5</button>
+                <button data-number class="button button-bg-3">6</button>
+                <button data-operation class="button button-bg-2">-</button>
+                
+                <button data-number class="button button-bg-3">7</button>
+                <button data-number class="button button-bg-3">8</button>
+                <button data-number class="button button-bg-3">9</button>
+                <button data-operation class="button button-bg-2">+</button>
+                
+                <button data-number class="button button-bg-3">.</button>
+                <button data-number class="button button-bg-3">0</button>
+                <button data-equals class="max button button-bg-2">=</button>
+
+
+        </div>
+    </div>
+    <script src="./js/colorMode.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
